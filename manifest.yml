@@ -1,0 +1,9 @@
+---
+applications:
+- name: nginx-proxy
+  instances: 1
+  memory: 32M
+  buildpacks:
+    - https://github.com/cloudfoundry/nginx-buildpack.git
+ 
+ 
